@@ -1,0 +1,29 @@
+{
+  "name": "konet-anime",
+  "version": "1.0.0",
+  "description": "A anime database",
+  "main": "main.js",
+  "scripts": {
+    "test": "kekkity"
+  },
+  "keywords": [
+    "konet",
+    "anime",
+    "search",
+    "anime-db",
+    "anime-database",
+    "konet-api"
+  ],
+  "dependencies": {
+    "request": "^2.79.0"
+  },
+  "bugs": {
+    "url": "https://github.com/Konetapp/konet-anime/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Konetapp/konet-anime.git"
+  },
+  "author": "Konetapp",
+  "license": "ISC"
+}
