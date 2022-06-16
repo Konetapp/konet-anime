@@ -6,7 +6,7 @@ exports.anime = function(query, offset) {
     return new Promise(function(resolve, reject) {
         request({
             method: 'GET',
-            url: 'https://picayune-fishy-python.glitch.me/result?search=' + query + (offset.toString() ? offset : '0'),
+            url: 'https://konet-anime.normioffi.repl.co/result?search=' + query + (offset.toString() ? offset : '0'),
             headers: {
                 'Content-Type': 'application/vnd.api+json',
                 'Accept': 'application/vnd.api+json'
@@ -30,7 +30,7 @@ exports.animeList = function(offset) {
         }
         request({
             method: 'GET',
-            url: 'https://picayune-fishy-python.glitch.me/result?search=' + (offset.toString() ? offset : '0'),
+            url: 'https://konet-anime.normioffi.repl.co/result?search=' + (offset.toString() ? offset : '0'),
             headers: {
                 'Content-Type': 'application/vnd.api+json',
                 'Accept': 'application/vnd.api+json'
